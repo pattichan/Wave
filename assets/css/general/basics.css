@@ -2,6 +2,7 @@
     --brand-color: var(--ghost-accent-color, #fc7e0f);
     --primary-text-color: #5a656b;
     --secondary-text-color: #aaa;
+    --highlight-color: #FF5328;
     --white-color: #fff;
     --light-gray-color: #f6f6f6;
     --mid-gray-color: #e6e6e6;
@@ -36,7 +37,7 @@ body {
 }
 
 a {
-    color: var(--darker-gray-color);
+    color: var(--highlight-color);
     text-decoration: none;
     transition: color 0.1s var(--animation-base);
 }
